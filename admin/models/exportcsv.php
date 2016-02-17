@@ -41,7 +41,7 @@ class ExportCSVModelExportCSV extends JModelItem
         $db = JFactory::getDbo();
         $query = $db->getQuery(true);
         $query->select('*');
-        $query->from($db->quoteName('#__table'));
+        $query->from($db->quoteName('#__chronoengine_chronoforms_datatable_matriculas'));
 
         if ($ids) {
             $query->where('id IN ('. join(',',$ids) .')');

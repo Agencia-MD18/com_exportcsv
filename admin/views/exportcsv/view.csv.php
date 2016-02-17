@@ -11,7 +11,7 @@
 defined('_JEXEC') or die('Restricted access');
 
 /**
- * CSV View class for the ExportCSV Component
+ * HTML View class for the ExportCSV Component
  *
  * @since  0.0.1
  */

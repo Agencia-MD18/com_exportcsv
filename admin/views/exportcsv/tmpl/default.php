@@ -11,6 +11,6 @@
 defined('_JEXEC') or die('Restricted access');
 
 header("Content-Type: application/csv");
-header("Content-Disposition: attachment;Filename=export.csv"); ?>
+header("Content-Disposition: attachment;Filename=matriculas.csv"); ?>
 
 <?php echo utf8_decode($this->csv); ?>
