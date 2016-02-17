@@ -13,11 +13,13 @@
 	<!-- The description is optional and defaults to the name -->
 	<description></description>
  
-	<files folder="admin">
-		<filename>exportcsv.php</filename>
-		<filename>controller.php</filename>
-		<folder>views</folder>
-		<folder>models</folder>
-	</files>
+ 	<administration>
+		<files folder="admin">
+			<filename>exportcsv.php</filename>
+			<filename>controller.php</filename>
+			<folder>views</folder>
+			<folder>models</folder>
+		</files>
+	</administration>
 
 </extension>
